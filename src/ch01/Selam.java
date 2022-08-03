@@ -1,12 +1,14 @@
+package ch01;
+
 public class Selam {
     String world = "millet";
 
     public String selamSoyle(String kime)  {
         String cumle;
         if(kime!= "")
-            cumle="Selam " + kime + " :)";
+            cumle= "selam " + kime + " :)";
         else
-            cumle="Selam " + world + "( :)";
+            cumle= "selam " + world + " :)";
         return cumle;
     }
 
