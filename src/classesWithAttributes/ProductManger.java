@@ -5,4 +5,8 @@ public class ProductManger {
         //JDBC
         System.out.println("Ürün eklendi " + product.name);
     }
+
+    public void Add2(){
+
+    }
 }
